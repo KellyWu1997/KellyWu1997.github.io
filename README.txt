@@ -1,13 +1,6 @@
 
-TITLE: 
-Slant - Responsive Free HTML5 template
-
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-http://freehtml5.co/
-http://twitter.com/fh5co
-http://facebook.com/fh5co
-
+Yi(Kelly) Wu
 
 CREDITS:
 
