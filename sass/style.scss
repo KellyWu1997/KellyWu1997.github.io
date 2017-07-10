@@ -145,7 +145,7 @@ h6, .h6 {
 	line-height: 24px;
 }
 ul, ol {
-	padding-left: 15px;
+	
 	line-height: 26px;
 	ul, ol {
 		padding-left: 25px;
@@ -961,11 +961,22 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 		.fh5co-category {
 			color: $brand-gray;
 			font-size: 17px;
-			margin-bottom: 80px;
+			margin-bottom: 40px;
 			margin-top: -15px;
 		}
 	}
 	
+}
+
+@media(max-width: 768px){
+	.fh5co-work-item{	
+		border-bottom: 2px dashed #E0E0E0;
+		margin-top: 35px;
+	}
+   
+    .work-history-detail li{
+        list-style-type: circle;
+    }
 }
 
 .project-notification{
