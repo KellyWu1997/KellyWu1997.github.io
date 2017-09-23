@@ -198,7 +198,7 @@ textarea {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  color: #438192;
+  color: #F9E14F;
   padding: .75em 1em;
   font-weight: normal;
   text-transform: uppercase;
@@ -208,7 +208,7 @@ textarea {
   border-top: none;
   text-decoration: none;
   zoom: 1;
-  font-size: 13px;
+  font-size: 15px;
   border-bottom: none !important; }
 
 .sf-menu li,
