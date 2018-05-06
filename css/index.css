@@ -6,7 +6,7 @@ body, html {
 
 .img-block {
     width: 70%;
-    height: 60%;
+    height: 53%;
     margin: 5% auto auto auto;
 }
 
@@ -18,9 +18,11 @@ body, html {
 .banner {
     background-color: #f9f4ed;
     width: 60%;
-    height: auto%;
+    height: auto;
     margin: auto;
     padding: 20px;
+    position: relative;
+    z-index: 1000;
 }
 .code-img {
     display: none;
@@ -85,7 +87,7 @@ body, html {
 .btn-1 {
     background-color:#CC6666;
     display: inline-block;
-    width: 300px;
+    width: 200px;
     margin: 20px 20px;
 }
 .btn-1 .round {
