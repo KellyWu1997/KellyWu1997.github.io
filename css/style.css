@@ -628,11 +628,17 @@ textarea {
   
   }
 
+  .background-img {
+    width: 25%;
+    position: fixed;
+    right: 10px;
+  }
+
   body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(../images/back-ground.png); 
+    background-color: #CC6666;
     background-attachment: fixed;
   }
 
@@ -728,7 +734,7 @@ body.inner-page #fh5co-hero {
     height: inherit !important; } }
 
 #fh5co-main {
-  padding-top: 50px;
+  padding-top: 150px;
   position: relative;
   float: left;
   width: 100%;

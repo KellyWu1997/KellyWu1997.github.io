@@ -1,7 +1,9 @@
+
+
 ;(function () {
 	
 	'use strict';
-
+	
 	// iPad and iPod detection	
 	var isiPad = function(){
 	  return (navigator.platform.indexOf("iPad") != -1);
@@ -387,10 +389,6 @@
 		} , { offset: '70%' } );
 
 	};
-
-	
-
-
 	
 	$(function(){
 
@@ -420,3 +418,20 @@
 
 
 }());
+
+//typing effects for narratives
+var i = 0;
+var narrativeText = "ello, my name is Kelly Wu. I am a third year student studying Computer Engineering in University of Waterloo. Web design and development are two things that I am strongly passionate about. I have spent three work terms doing web development, both front end and back end. You may think I am a weird engineer because I put a lot of emphasis on how things look like, that is being said, I love designing and developing user interfaces that is extremely user-friendly, clean, clear and enjoyable. "
+var speed = 10; //the duration of effects
+
+function typeWriter() {
+	console.log("running");
+	if( i < narrativeText.length) {
+		document.getElementById("narrative").innerHTML += narrativeText.charAt(i);
+		i++;
+		setTimeout(typeWriter, speed);
+	}
+	else {
+		$('.buttons').fadeIn(2000);
+	}
+}

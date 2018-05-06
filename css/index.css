@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #CC6666;
+}
+
+.img-block {
+    width: 70%;
+    height: 53%;
+    margin: 5% auto auto auto;
+}
+
+.img-block object{
+    left: 40%;
+   width: 20%;
+   position: absolute;
+}
+.banner {
+    background-color: #f9f4ed;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    padding: 20px;
+}
+.code-img {
+    display: none;
+}
+
+.hero-img {
+   
+    margin: 0 auto;
+    z-index:3;
+
+}
+
+.design-img {
+    display: none;
+   
+}
+
+.background{
+    /* The image used */
+    background-image: url("../images/index-hero.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.right-side {
+   
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.buttons {
+   
+    right: 12%;
+    bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;  
+    width: 80%;
+}
+
+.text {
+    
+    font-size: 2.5em;
+    margin: auto;
+    font-family: Skranji;
+
+
+}
+
+
+/*button effect*/
+.btn-1 {
+    background-color:#CC6666;
+    display: inline-block;
+    width: 35%;
+    margin: 20px 20px;
+}
+.btn-1 .round {
+    background-color:#f9f4ed;
+}
+
+
+  a {
+    text-decoration: none;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    padding: 12px 73px 12px 23px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+  a span {
+    position: relative;
+    z-index: 3;
+  }
+  a .round {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    z-index: 2;
+  }
+  a .round i {
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    left: 50%;
+    margin-left: -4px;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #CC6666;
+  }
+  
+  .txt {
+    font-size: 1.3em;
+    line-height: 1.45;
+    font-family: Skranji;
+    color: black;
+  }
+
+  a:hover {
+      color: #fff;
+      text-decoration: none;
+  }
+
+
+.buttons a:hover {
+    padding-left: 48px;
+    padding-right: 28px;
+  }
+  .buttons a:hover .round {
+    width: calc(100% - 6px);
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
+  .buttons a:hover .round i {
+    left: 3%;
+  }
+
+.narrative {
+    font-size: 1.2em;
+    color: #96bfc5;
+    margin: 10% auto;
+    width: 500px;
+    line-height: 1.5;
+    font-family: Lato;
+}
+
