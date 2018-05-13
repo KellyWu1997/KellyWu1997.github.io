@@ -1,0 +1,86 @@
+body {
+    background-color: #f9f4ed;
+}
+
+.mockups{
+    width: 100%;
+}
+
+.mockups-div{
+    width: 55%;
+    margin: 100px auto;
+}
+
+.hero-img {
+    height: 700px;
+    background: url(../images/design-hero.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.design-imgs {
+   display: block;
+}
+
+.design-img1 img {
+    width: 80%;
+    margin-top: 3%;
+    left: -3000px;
+    position: relative;
+}
+
+.design-img2 img {
+    width: 80%;
+    margin-top: 3%;
+    right: -3000px;
+    float: right;
+    position: relative;
+}
+
+.design-img3 img {
+    width: 80%;
+    margin-top: 3%;
+    left: -3000px;
+    position: relative;
+}
+
+.design-img4 img {
+    width: 80%;
+    margin-top: 3%;
+    right: -3000px;
+    float: right;
+    position: relative;
+}
+
+.skills {
+    height: 500px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+}
+.skills2 {
+    height: 500px;
+    color: white;
+    background-color: white;
+    margin-top: 0;
+}
+
+.skills2 h2{
+    color: white;
+}
+
+.skill-picture {
+    text-align: center;
+    padding: 40px;
+    float: right;
+    width: 50%;
+    background-color: #CC6666;
+    height: 100%
+}
+
+.skill-explain {
+    text-align: center;
+    padding: 40px;
+    float: left;
+    width: 50%;
+}
