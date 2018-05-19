@@ -1269,8 +1269,10 @@ Components
 
 /* Social Icons */
 .fh5co-social-icons {
-  padding: 0; }
+  padding: 0; 
+  margin: 0;}
   .fh5co-social-icons li {
+    margin-top: 10px;
     list-style: none;
     display: inline;
     display: inline-block; }
@@ -1768,4 +1770,10 @@ ul li {
 .fh5co-category a{
   color: white;
   border-bottom: 1px dashed white;
+}
+
+footer {
+  height: 70px;
+  background-color: #f9f4ed;
+  text-align: center;
 }
