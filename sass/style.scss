@@ -96,7 +96,7 @@ body {
 
 a {
 	@include transition(.2s);
-	color: $brand-primary;
+	color: $brand-gray-alt;
 	// text-decoration: underline;
 	border-bottom: 1px solid $brand-gray;
 	&:hover, &:focus, &:active {
